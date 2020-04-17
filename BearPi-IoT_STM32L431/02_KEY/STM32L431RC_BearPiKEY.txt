@@ -1,0 +1,43 @@
+Configuration	STM32L431RC_BearPiKEY
+STM32CubeMX 	4.27.0
+Date	07/04/2019
+MCU	STM32L431RCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	LED
+28	PB2	GPIO_Input	EKY1
+55	PB3 (JTDO-TRACESWO)	GPIO_Input	KEY2
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : STM32L431RC_BearPiKEY
+Project Folder : D:\1BearPiCode\STM32L431RC_BearPiKEY
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_L4 V1.13.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
